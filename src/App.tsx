@@ -4,7 +4,7 @@ const App = (): ReactElement => {
   return (
     <div 
       style={{backgroundImage: "url('./background.png')"}} 
-      className="w-screen h-screen flex flex-col items-center justify-center bg-cover bg-no-repeat font-remaid gap-2 relative"
+      className="w-screen h-screen flex flex-col items-center justify-center bg-cover bg-no-repeat font-remaid gap-2 relative overflow-hidden"
     >
       <img className="absolute sm:top-4 top-6" src="./guirlande.png" alt="guirlande" />
       <img className="sm:w-1/4 w-2/3" src="./logo.png" alt="logo cuicuitedays" />
