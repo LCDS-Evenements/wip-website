@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      remaid: 'Remaid Typeface, sans-serif',
+    },
     extend: {},
+    animation: {
+      'spin-slow': 'spin 3s linear infinite',
+    },
   },
   plugins: [],
 }
