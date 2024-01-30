@@ -58,7 +58,7 @@ const App = (): ReactElement => {
             </svg>
           </a>
         </div>
-        <div className="bg-[#0e76a8] p-2 rounded-full border-2 border-transparent hover:border-white cursor-pointer flex items-center justify-center">
+        {/* <div className="bg-[#0e76a8] p-2 rounded-full border-2 border-transparent hover:border-white cursor-pointer flex items-center justify-center">
           <a href="">
             <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-linkedin" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -69,7 +69,7 @@ const App = (): ReactElement => {
               <path d="M16 16v-3a2 2 0 0 0 -4 0" />
             </svg>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   )
